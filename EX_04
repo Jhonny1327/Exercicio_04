@@ -1,14 +1,17 @@
-public class Exercicio_04 {
+import java.util.Scanner;
+
+
+public class Teste {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         
-        int num1 = 5;
-        int num2 = 2;
-        int quadrado = num1 * num1;
+        System.out.println("Potência de numeros");
+        System.out.println("Digite um Valor");
+        int num1= sc.nextInt();
         
-        System.out.println("O quadrado de" +  num1);
-        System.out.println(num1 + "^" + 2 + "=" + quadrado);        
-         
-                
+        num1 = num1 * num1;        
+        
+        System.out.println(num1);
     }
 }
