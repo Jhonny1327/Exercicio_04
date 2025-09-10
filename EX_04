@@ -1,0 +1,14 @@
+public class Exercicio_04 {
+
+    public static void main(String[] args) {
+        
+        int num1 = 5;
+        int num2 = 2;
+        int quadrado = num1 * num1;
+        
+        System.out.println("O quadrado de" +  num1);
+        System.out.println(num1 + "^" + 2 + "=" + quadrado);        
+         
+                
+    }
+}
